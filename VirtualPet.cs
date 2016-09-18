@@ -8,27 +8,18 @@ namespace VirtualPet
 {
     class VirtualPet
     {
-        //Fields
+        //field
+        private string userBumbleBeeName;
 
-
-        //Properties (at least three)
-
-        //Constructors
-
-        //Methods (at least three)
-        //have a Tick Method (see Birthday example)
-        public void Tick()
+        //properties
+        public string Name
         {
-
-        }
-        public void Hunger()
-        {
-
-        }
-        public void Thirst()
-        {
-
+            get { return this.userBumbleBeeName; }
+            set { this.userBumbleBeeName = value; }
         }
 
+        //constuctor
+
+        //methods
     }
 }
