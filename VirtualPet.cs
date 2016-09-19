@@ -17,9 +17,21 @@ namespace VirtualPet
             get { return this.userBumbleBeeName; }
             set { this.userBumbleBeeName = value; }
         }
-
+       
         //constuctor
 
+        public VirtualPet()
+        {
+            userBumbleBeeName = Console.ReadLine();
+        }
+      
+
+
         //methods
+        public void Greet(string userBumbleBeeName)
+        {
+            //provide the output for this method
+            Console.WriteLine("Hello! You are now taking care of " + Name + " !");
+        }
     }
 }
